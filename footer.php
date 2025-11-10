@@ -133,7 +133,6 @@
 
 <script src="assets/js/main.js"></script>
 
-<script src="//code.tidio.co/8ulompesxl24mbqjy28yqbxgmrvgjisk.js" async></script>
 </body>
 
 <!-- Mirrored from bytesed.com/tf/additrans/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 06 Nov 2022 10:37:52 GMT -->
