@@ -248,7 +248,7 @@
 <div class="author-details">
 <div class="author-meta">
 <h4 class="title">Mark Tyson</h4>
-<span class="designation">CEO, Immune Express Logistics</span>
+<span class="designation">CEO, Nexo Freight</span>
 </div>
 <div class="author-sign">
 <img src="assets/img/we-offer/sign.png" alt="">
@@ -299,7 +299,7 @@
 <i class="flaticon-quote"></i>
 </div>
 <h2 class="title">testimonial</h2>
-<p class="description">My experience with Immune Express Logistics is absolutely positive, Everything is fine for me, good service, timely delivery. Technical support always answers, i will give 5 stars. </p>
+<p class="description">My experience with Nexo Freight is absolutely positive, Everything is fine for me, good service, timely delivery. Technical support always answers, i will give 5 stars. </p>
 <div class="author-details">
 <div class="author-meta">
 <h4 class="title">Maria Stud
@@ -319,7 +319,7 @@
 <i class="flaticon-quote"></i>
 </div>
 <h2 class="title">testimonial</h2>
-<p class="description">Immune Express Logistics has proven to be a reliable and trustworthy partner, thumbs up it is left for you to try them and find out yourself. Great logistics service. </p>
+<p class="description">Nexo Freight has proven to be a reliable and trustworthy partner, thumbs up it is left for you to try them and find out yourself. Great logistics service. </p>
 <div class="author-details">
 <div class="author-meta">
 <h4 class="title">Alex Poole

@@ -44,10 +44,10 @@ if ($no == 1) {
 
         <head>
             <meta charset="utf-8" />
-            <title>Track My Parcel | Immune Express</title>
-            <meta name="description" content="Immune Express" />
+            <title>Track My Parcel |  Nexo Freight</title>
+            <meta name="description" content="Nexo Freight" />
             <meta name="keywords" content="Track your parcel" />
-            <meta name="author" content="Immune Express Logistics">
+            <meta name="author" content="Nexo Freight Logistics">
             <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />-->
 
             <link rel="icon" href="favicon.ico" sizes="20x20" type="image/png">
@@ -133,7 +133,7 @@ if ($no == 1) {
                                 <font color="white">Parcel Tracking</font>
                             </h2>
                             <ul class="page-list">
-                                <li><a href="https://immune-expresslogistics.org/">Home</a></li>
+                                <li><a href="https://nexofreight.com/">Home</a></li>
                                 <li><a href="#">Parcel Result</a></li>
                             </ul>
                         </div>
@@ -165,7 +165,7 @@ if ($no == 1) {
                                     <center>
                                         <font color="Black" face="arial,verdana"><strong>Current state</strong></font>:&nbsp;<span style="background: #<?php echo $color; ?>;" class="label label-large">
                                             <font size=2 color="White" face="arial,verdana"><?php echo $status; ?><?php if ($status == "On Hold") {
-                                                                                                                        echo '<img src="https://immune-expresslogistics.org/stop.gif" height="50px" width="50px">';
+                                                                                                                        echo '<img src="https://nexofreight.com/stop.gif" height="50px" width="50px">';
                                                                                                                     } ?></font>
                                         </span>&nbsp;&nbsp;&nbsp;
                                     </center>
@@ -315,10 +315,10 @@ else {
 
     <head>
         <meta charset="utf-8" />
-        <title>Track My Parcel | Immune Express Logistics</title>
-        <meta name="description" content="Immune Express Logistics" />
-        <meta name="keywords" content="Immune Express Logistics" />
-        <meta name="author" content="Immune Express Logistics">
+        <title>Track My Parcel | Nexo Freight Logistics</title>
+        <meta name="description" content="Nexo Freight Logistics" />
+        <meta name="keywords" content="Nexo Freight Logistics" />
+        <meta name="author" content="Nexo Freight Logistics">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
         <link rel="icon" href="favicon.ico" sizes="20x20" type="image/png">
@@ -357,7 +357,7 @@ else {
                                 <font color="white">Parcel Tracking</font>
                             </h2>
                             <ul class="page-list">
-                                <li><a href="https://immune-expresslogistics.org/">Home</a></li>
+                                <li><a href="https://nexofreight.com/">Home</a></li>
                                 <li><a href="#">Parcel Result</a></li>
                             </ul>
                         </div>

@@ -9,7 +9,7 @@
                 <div class="breadcrumb-inner">
                     <h2 class="page-title">About Us</h2>
                     <ul class="page-list">
-                        <li><a href="https://immune-expresslogistics.org/">Home</a></li>
+                        <li><a href="https://nexofreight.com/">Home</a></li>
                         <li><a href="#">About us</a></li>
                     </ul>
                 </div>
@@ -40,7 +40,7 @@
                         <div class="author-details">
                             <div class="author-meta">
                                 <h4 class="title">Mark Tyson</h4>
-                                <span class="designation">CEO, Immune Express Logistics</span>
+                                <span class="designation">CEO, Nexo Freight</span>
                             </div>
                             <div class="author-sign">
                                 <img src="assets/img/we-offer/sign.png" alt="">
@@ -65,7 +65,7 @@
                     <div class="content margin-bottom-30">
                         <div class="section-title white">
                             <h2 class="title">Keep an eye on every details</h2>
-                            <p>Immune Express Logistics Group has made significant progress with Strategy 2020. With “Strategy 2025 – Delivering Excellence in a Digital World” the company is laying the groundwork to continue its successful growth trajectory beyond 2020's.</p>
+                            <p>Nexo Freight has made significant progress with Strategy 2020. With “Strategy 2025 – Delivering Excellence in a Digital World” the company is laying the groundwork to continue its successful growth trajectory beyond 2020's.</p>
                         </div>
                         <div class="btn-wrapper">
                             <a href="about-us.php" class="boxed-btn blank">Learn More</a>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="content">
                         <h4 class="title">Our mission</h4>
-                        <p>Becoming the world's largest logistics company, soon after our formation, Immune Express Logistics enjoyed rapid growth around the globe. Today, Immune Express Logistics is the world’s largest logistics company with over 38,000 employees and offices in over 220 countries and territories.
+                        <p>Becoming the world's largest logistics company, soon after our formation, Nexo Freight enjoyed rapid growth around the globe. Today, Nexo Freight is the world’s largest logistics company with over 38,000 employees and offices in over 220 countries and territories.
 
                         </p>
                         <a href="about-us.php" class="readmore">Read More<i class="fas fa-angle-double-right"></i></a>

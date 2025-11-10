@@ -8,7 +8,7 @@
                 <div class="breadcrumb-inner">
                     <h2 class="page-title">Contact us</h2>
                     <ul class="page-list">
-                        <li><a href="https://immune-expresslogistics.org/">Home</a></li>
+                        <li><a href="https://nexofreight.com/">Home</a></li>
                         <li><a href="#">Contact us</a></li>
                     </ul>
                 </div>
@@ -53,8 +53,8 @@
                             </div>
                             <div class="content">
                                 <span class="title">Mail US</span>
-                                <p class="details"><a href="mailto:contact@immune-expresslogistics.org" class="__cf_email__">contact@immune-expresslogistics.org</a> <br>
-                                    <a href="mailto:agent@immune-expresslogistics.org" class="__cf_email__">agent@immune-expresslogistics.org</a>
+                                <p class="details"><a href="mailto:contact@nexofreight.com" class="__cf_email__">contact@nexofreight.com</a> <br>
+                                    <a href="mailto:agent@nexofreight.com" class="__cf_email__">agent@nexofreight.com</a>
                                 </p>
                             </div>
                         </div>

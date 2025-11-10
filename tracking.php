@@ -4,10 +4,10 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Track My Parcel | Immune Express Logistics</title>
-    <meta name="description" content="Immune Express Logistics " />
-    <meta name="keywords" content="Immune Express Logistics" />
-    <meta name="author" content="Immune Express Logistics">
+    <title>Track My Parcel | Nexo Freight</title>
+    <meta name="description" content="Nexo Freight " />
+    <meta name="keywords" content="Nexo Freight" />
+    <meta name="author" content="Nexo Freight">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
     <link rel="icon" href="favicon.ico" sizes="20x20" type="image/png">
@@ -78,7 +78,7 @@
                         <font color="white">About Us</font>
                     </h2>
                     <ul class="page-list">
-                        <li><a href="https://immune-expresslogistics.org/">Home</a></li>
+                        <li><a href="https://nexofreight.com/">Home</a></li>
                         <li><a href="#">About us</a></li>
                     </ul>
                 </div>

@@ -24,7 +24,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-widget widget">
                         <div class="about_us_widget">
-                            <a href="https://immune-expresslogistics.org" class="footer-logo"> <img src="assets/img/logo.png" alt="footer logo"></a>
+                            <a href="https://nexofreight.com" class="footer-logo"> <img src="assets/img/logo.png" alt="footer logo"></a>
                             <p>We are able to guarantee a very high level of satisfaction for our clients.
                             </p>
                         </div>
@@ -45,7 +45,7 @@
                     <div class="footer-widget widget widget_nav_menu">
                         <h4 class="widget-title">our support</h4>
                         <ul>
-                            <li><a href="https://immune-expresslogistics.org/">Home</a></li>
+                            <li><a href="https://nexofreight.com/">Home</a></li>
                             <li><a href="about-us.php">About Us</a></li>
                             <li><a href="tracking.php">Track Parcel</a></li>
                             <li><a href="contact-us.php">Contact Us</a></li>
@@ -68,7 +68,7 @@
                             </li>
                             <li class="single-info-item">
                                 <div class="details">
-                                    <a href="mailto:contact@immune-expresslogistics.org" class="__cf_email__">contact@immune-expresslogistics.org</a>
+                                    <a href="mailto:contact@nexofreight.com" class="__cf_email__">contact@nexofreight.com</a>
                                 </div>
                             </li>
                         </ul>
@@ -82,7 +82,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="copyright-area-inner">
-                        &copy; Copyright 2025 Immune Express Logistics All rights reserved.
+                        &copy; Copyright 2025 Nexo Freight All rights reserved.
                     </div>
                 </div>
             </div>

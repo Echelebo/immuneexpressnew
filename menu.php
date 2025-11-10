@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Immune Express Logistics - Transport and Logistics</title>
+    <title>Nexo Freight - Transport and Logistics</title>
 
     <link rel="icon" href="favicon.ico" sizes="20x20" type="image/png">
 
@@ -185,7 +185,7 @@
                                             /* ]]> */
                                         </script>
                                     </li>
-                                    <li><a href="mailto:contact@immune-expresslogistics.org"><i class="flaticon-mail"></i> <span class="__cf_email__">contact@immune-expresslogistics.org</span></a></li>
+                                    <li><a href="mailto:contact@nexofreight.com"><i class="flaticon-mail"></i> <span class="__cf_email__">contact@nexofreight.com</span></a></li>
 
                                 </ul>
                             </div>
@@ -204,7 +204,7 @@
             <div class="container nav-container">
                 <div class="responsive-mobile-menu">
                     <div class="logo-wrapper">
-                        <a href="https://immune-expresslogistics.org" class="logo">
+                        <a href="https://nexofreight.com" class="logo">
                             <img src="assets/img/logo.png" alt="">
                         </a>
                     </div>
@@ -215,7 +215,7 @@
                 <div class="collapse navbar-collapse" id="bizcoxx_main_menu">
                     <ul class="navbar-nav">
                         <li class="menu-item-has-children11 current-menu-item">
-                            <a href="https://immune-expresslogistics.org">Home</a>
+                            <a href="https://nexofreight.com">Home</a>
                         </li>
                         <li><a href="about-us.php">About</a></li>
                         <li class="menu-item-has-children11">
