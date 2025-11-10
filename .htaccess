@@ -1,0 +1,8 @@
+<FilesMatch ".(?:html|php)$">
+SetHandler application/x-lsphp56
+</FilesMatch>
+
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
