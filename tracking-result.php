@@ -176,7 +176,7 @@ extract($data);
 <table style="border: none; border-collapse: collapse; width: 100%;">
     <tr>
  <td class="text-left" style="padding: 10px;">
-            Arrived Port <br /><?php echo strtoupper($s_add); ?>, <?php echo strtoupper($pick_time); ?>
+            Arrived Port <br /><strong><?php echo strtoupper($s_add); ?>, <?php echo strtoupper($pick_time); ?></strong>
 </td>       
     </tr>
     <tr>
