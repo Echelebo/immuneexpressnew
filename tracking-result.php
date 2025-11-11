@@ -170,18 +170,14 @@ extract($data);
         </div>
 
 
-        <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="col-sm-12 col-md-12 col-lg-12 mt-4">
 <hr style="margin-top: 20px; border: none;">
-            <div class="text-center mt-4">
-
-<h5 class="card-heading-x">Arrived Port</h5>
-</div>
+           
 <table style="border: none; border-collapse: collapse; width: 100%;">
     <tr>
-        
-<td class="text-left" style="padding: 10px;">
-            <?php echo strtoupper($s_add); ?>, <?php echo strtoupper($pick_time); ?>
-</td>
+ <td class="text-left" style="padding: 10px;">
+            Arrived Port <br /><?php echo strtoupper($s_add); ?>, <?php echo strtoupper($pick_time); ?>
+</td>       
     </tr>
     <tr>
     <td class="text-left" style="padding: 10px; width: 50%;">
