@@ -8,7 +8,7 @@
                     </div>
                     <div class="content">
                         <h2 class="title">Call us for any inquiry we are open 24/7</h2>
-                        <span class="subtitle">+1 (753) 3330 949</span>
+                        <span class="subtitle">+1 (753) ***0 949</span>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
                             </li>
                             <li class="single-info-item">
                                 <div class="details">
-                                    +1 (753) 3330 949
+                                    +1 (753) ***0 949
                                 </div>
                             </li>
                             <li class="single-info-item">

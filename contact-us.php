@@ -34,8 +34,8 @@
                                 <span class="title">Address
                                 </span>
                                 <p class="details"><b>U.S.A Office:</b> 1905 S Azusa Ave, Hacienda Heights, CA 91745</p>
-                                <p class="details"><b>Yemen Office:</b> Shaykh Uthman, Sheikh Othman, Aden</p>
-                                <p class="details"><b>U.K Office:</b> 6 Drayton Green Rd, London W13 8RY</p>
+                              <!--  <p class="details"><b>Yemen Office:</b> Shaykh Uthman, Sheikh Othman, Aden</p>
+                                <p class="details"><b>U.K Office:</b> 6 Drayton Green Rd, London W13 8RY</p> -->
                             </div>
                         </div>
                         <div class="single-contact-item">
@@ -44,7 +44,7 @@
                             </div>
                             <div class="content">
                                 <span class="title">Phone</span>
-                                <p class="details">Contact: +17533330949 <br>U.K Office: +447529662028 <br>Yemen Office: +967777123456</p>
+                                <p class="details">Contact: +1753***0949 <!-- <br>U.K Office: +447529662028 <br>Yemen Office: +967777123456  --> </p>
                             </div>
                         </div>
                         <div class="single-contact-item">
