@@ -143,141 +143,67 @@ if ($no == 1) {
         </div>
 
         <div class="slide"></div>
-        <main class="slide">
+        
+					<?php
+						require_once('dashboard/database.php');
 
-
-            <div class="container">
-
-                <div class="row">
-                    <table border="0" align="center" width="100%">
-                        <div class="row">
-                            <div class="col-md-4 py-2">
-                                <h3>
-                                    <center>
-                                        <img src="deprixa_components/images/barcode.png" /></br>
-                                        <font color="#000"><?php echo $tracking; ?></font>
-                                    </center>
-                                </h3>
-                            </div>
-                            <div class="col-md-4 py-2">
-
-                                <h3>
-                                    <center>
-                                        <font color="Black" face="arial,verdana"><strong>Current state</strong></font>:&nbsp;<span style="background: #<?php echo $color; ?>;" class="label label-large">
-                                            <font size=2 color="White" face="arial,verdana"><?php echo $status; ?><?php if ($status == "On Hold") {
-                                                                                                                        echo '<img src="https://nexofreight.com/stop.gif" height="50px" width="50px">';
-                                                                                                                    } ?></font>
-                                        </span>&nbsp;&nbsp;&nbsp;
-                                    </center>
-                                </h3>
-
-                            </div>
-                            <div class="col-md-4 py-2">
-                                <h3>
-                                    <center>
-                                        <font color="Black" face="arial,verdana"><strong>Payment Mode</strong></font>:&nbsp;<span class="label label-danger">
-                                            <font size=2 color="White" face="arial,verdana"> <?php echo $book_mode; ?></font>
-                                        </span>
-                                        &nbsp;&nbsp;&nbsp;
-                                    </center>
-                                </h3>
-                            </div>
-                        </div>
-                        <hr />
-                        <div class="row" style="padding: 50px;">
-
-                            <div class="col-lg-4 col-md-4 py-2">
-                                <center>
-                                    <font size=3 color="Black" face="arial,verdana"><strong>Delivery schedule</strong></font><br />
-                                    <?php echo $schedule; ?>, End of the day
-                                </center>
-                            </div>
-                            <div class="col-lg-8 col-md-8 py-2">
-                                <center>
-                                    <font size=3 color="Black" face="arial,verdana"><strong>Destination</strong></font><br />
-                                    <div> <?php echo $paisdestino ?></div>
-                                </center>
-                            </div>
-                        </div>
-                        <hr />
-                        <div class="row">
-                            <div class="col-md-12 py-2">
-                                <h2>
-                                    <center>Additional information</center>
-                                </h2>
-                            </div>
-                            <br />
-                            <div class="col-md-4 py-2">
-                                <font size=2 color="Black" face="arial,verdana"><strong>Origin:</strong></font> <?php echo $invice_no; ?><br />
-                                <font size=2 color="Black" face="arial,verdana"><strong>Destination:</strong></font> <?php echo $paisdestino; ?><br />
-                                <font size=2 color="Black" face="arial,verdana"><strong>Service mode:</strong></font> <?php echo $mode; ?><br />
-                                <font size=2 color="Black" face="arial,verdana"><strong>Type service:</strong></font> <?php echo $type; ?><br />
-                                <font size=2 color="Black" face="arial,verdana"><strong>Weight:</strong></font> <?php echo $weight; ?>&nbsp;kg<br />
-                                <font size=2 color="Black" face="arial,verdana"><strong>Collection date and time:</strong></font> <?php echo $pick_date; ?><br />
-                                <font size=2 color="Black" face="arial,verdana"><strong>Shipping description:</strong></font> <?php echo $comments; ?>
-                            </div>
-                            <div class="col-md-4 py-2">
-                                <font size=3 color="Black" face="arial,verdana"><strong>
-                                        <center>Details of the sender</center>
-                                    </strong></font><br />
-                                <font size=2 color="Black" face="arial,verdana"><strong>Name:</strong></font> <?php echo $ship_name; ?><br />
-                                <font size=2 color="Black" face="arial,verdana"><strong>Phone:</strong></font> <?php echo $phone; ?><br />
-                                <font size=2 color="Black" face="arial,verdana"><strong>Address:</strong></font> <?php echo $s_add; ?>
-                            </div>
-                            <div class="col-md-4 py-2">
-                                <font size=3 color="Black" face="arial,verdana"><strong>
-                                        <center>Details of the recipient</center>
-                                    </strong></font><br />
-                                <font size=2 color="Black" face="arial,verdana"><strong>Name:</strong></font> <?php echo $rev_name; ?><br />
-                                <font size=2 color="Black" face="arial,verdana"><strong>Phone:</strong></font> <?php echo $r_phone; ?><br />
-                                <font size=2 color="Black" face="arial,verdana"><strong>Address:</strong></font> <?php echo $r_add; ?>
-                            </div>
-                        </div>
-                        <hr />
-                        <div class="row">
-                            <div class="col-md-12">
-                                <br />
-                                <h2>Shipping history</h2>
-
-                                <?php
-                                require_once('dashboard/database.php');
-
-                                //EJECUTAMOS LA CONSULTA DE BUSQUEDA
-                                $result = mysql_query("SELECT * FROM courier_track WHERE cid = $cid	AND cons_no = '$cons_no' ORDER BY bk_time");
-                                //CREAMOS NUESTRA VISTA Y LA DEVOLVEMOS AL AJAX
-                                echo ' <table class="table table-bordered table-striped table-hover" >
+						//EJECUTAMOS LA CONSULTA DE BUSQUEDA
+						$result = mysql_query("SELECT * FROM courier_track WHERE cid = $cid	AND cons_no = '$cons_no' ORDER BY bk_time");
+						//CREAMOS NUESTRA VISTA Y LA DEVOLVEMOS AL AJAX
+						echo ' <table class="table table-bordered table-striped table-hover" >
 									<tr class="car_bold col_dark_bold" align="center">
-										<td><font color="Black" face="arial,verdana"><strong>Tracking No</strong></font></td>
 										<td><font color="Black" face="arial,verdana"><strong>New Location</strong></font></td>
-										<td><font color="Black" face="arial,verdana"><strong>Shipping State</strong></font></td>
-										<td><font color="Black" face="arial,verdana"><strong>Date And Time</strong></font></td>
-										<td><font color="Black" face="arial,verdana"><strong>Remarks</strong></font></td>																							
+										<td><font color="Black" face="arial,verdana"><strong>State</strong></font></td>
+										<td><font color="Black" face="arial,verdana"><strong>Time</strong></font></td>
+										<td><font color="Black" face="arial,verdana"><strong>Remarks</strong></font></td>
 									</tr>';
-                                if (mysql_num_rows($result) > 0) {
-                                    while ($row = mysql_fetch_array($result)) {
-                                        echo '<tr align="center">
-										<td>' . $row['cons_no'] . '</td>
-										<td>' . $row['pick_time'] . '</td>
-										<td>' . $row['status'] . '</td>
-										<td>' . $row['bk_time'] . '</td>				
-										<td>' . $row['comments'] . '</td>
+						if(mysql_num_rows($result)>0){
+							while($row = mysql_fetch_array($result)){
+								echo '<tr align="center">
+										<td><font size=2>'.$row['pick_time'].'</font></td>
+										<td><font size=2>'.$row['status'].'</font></td>
+										<td><font size=2>'.$row['bk_time'].'</font></td>
+										<td><font size=2>'.$row['comments'].'</font></td>
 										</tr>';
-                                    }
-                                } else {
-                                    echo '<tr>
+							}
+						}else{
+							echo '<tr>
 										<td colspan="5" >There are no results</td>
 									</tr>';
-                                }
-                                echo '</table>';
-                                ?>
-                            </div>
-                        </div>
-                    </table>
-                    <!-- End Deprixa Section -->
+						}
+						echo '</table>';
+					?>
+			</div>
 
-                </div>
 
-        </main>
+        <div class="col-sm-12 col-md-12 col-lg-12 mt-4">
+        <hr style="margin-top: 20px; border: none;">
+        <div class="text-center">
+
+<h5 class="card-heading-x">Shipment Facts</h5>
+</div>
+<div class="text-left">
+			<span style="margin-right: 20px;">Master Tracking Number:</span><strong><?php echo strtoupper($tracking); ?></strong><br /><br />
+            <span style="margin-right: 20px;">Delivered To:</span><strong><?php echo strtoupper($rev_name); ?></strong><br /><br />
+            <span style="margin-right: 20px;">Shipper Reference:</span><strong><?php echo strtoupper($invice_no); ?></strong><br /><br />
+            <span style="margin-right: 20px;">Expected Delivery Date:</span><strong><?php echo strtoupper($schedule); ?></strong><br /><br />
+            <span style="margin-right: 20px;">Service:</span><strong><?php echo strtoupper($mode); ?></strong><br /><br />
+            <span style="margin-right: 20px;">Weight:</span><strong><?php echo strtoupper($weight); ?>KG</strong><br /><br />
+
+            <span style="margin-right: 20px;">Total Shipment Weight:</span><strong><?php echo strtoupper($weightx); ?>KG</strong><br /><br />
+            <span style="margin-right: 20px;">Packaging:</span><strong><?php echo strtoupper($type); ?></strong><br /><br />
+
+		</div>
+        </div>
+ <!-- End Deprixa Section -->
+
+        </div>
+
+</div>
+
+</section>
+</div>
+</main>
         <br>
         <br>
         <br>
