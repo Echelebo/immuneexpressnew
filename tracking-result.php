@@ -24,17 +24,16 @@ require_once('dashboard/database.php');
 require_once('dashboard/library.php');
 require_once('dashboard/funciones.php');
 
-$tracking = $_POST['shipping'];
+$tracking= $_POST['shipping'];
 
-$sql = "SELECT c.cid, c.tracking, c.cons_no, c.letra, c.book_mode, c.schedule, c.paisdestino, c.pick_time, c.invice_no, c.mode, c.type, c.weight, c.comments, c.ship_name, c.phone, 
-c.s_add, c.rev_name, c.r_phone, c.r_add, c.pick_date, c.user, s.color, c.status FROM courier c, service_mode s WHERE s.servicemode = c.status AND c.tracking = '$tracking'";
+$sql = "SELECT c.cid, c.tracking, c.cons_no, c.letra, c.book_mode, c.schedule, c.paisdestino, c.pick_time, c.pick_time2, c.invice_no, c.mode, c.type, c.weight, c.weightx, c.qty, c.comments, c.ship_name, c.s_add, c.rev_name, c.r_add, c.pick_date, c.user, s.color, c.status FROM courier c, service_mode s WHERE s.servicemode = c.status AND c.tracking = '$tracking'";
 
 $result = dbQuery($sql);
 $no = dbNumRows($result);
-if ($no == 1) {
+if($no == 1){
 
-    while ($data = dbFetchAssoc($result)) {
-        extract($data);
+while($data = dbFetchAssoc($result)) {
+extract($data);
 
 ?>
 
@@ -65,7 +64,7 @@ if ($no == 1) {
 
             <!--<link href="files/css/master.css" rel="stylesheet">
        
-		<!-- SWITCHER -->
+		 SWITCHER -->
             <link rel="stylesheet" id="switcher-css" type="text/css" href="files/assets/switcher/css/switcher.css" media="all" />
             <link rel="alternate stylesheet" type="text/css" href="files/assets/switcher/css/color1.css" title="color1" media="all" data-default-color="true" />
             <link rel="alternate stylesheet" type="text/css" href="files/assets/switcher/css/color2.css" title="color2" media="all" />
